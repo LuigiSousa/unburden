@@ -1,0 +1,161 @@
+#message-reply-page {
+    margin: 0 auto;
+    width: 100%;
+    max-width: 600px;
+    padding: 0 20px;
+    text-align: center;
+}
+
+#message-card-container {
+    margin: 0 auto;
+    width: 100%;
+    max-width: 600px;
+    padding: 0 20px;
+    text-align: center;
+}
+
+#message-card-container #message-card {
+    margin: 1rem;
+    width: 100%;
+    max-width: 600px;
+    padding: 20px;
+    border-radius: 5px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0,0,0,0.2);
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    transition: box-shadow 0.3s ease-in-out
+}
+
+
+
+#message-card-container #message-card:hover {
+    box-shadow: 0 0 10px rgba(0,0,0,0.4);
+}
+
+#message-card-name {
+    font-size: 1.5rem;
+    font-weight: 700;
+    margin-bottom: 0.5rem;
+    font-family: 'Courier New', Courier, monospace;
+    text-transform: lowercase;
+}
+
+#message-card-message {
+    font-size: 1.2rem;
+    margin-bottom: 1rem;
+    font-family: 'Courier New', Courier, monospace;
+    text-transform: lowercase;
+}
+
+#return-a {
+    margin-top: 1rem;
+    padding: 0.5rem 1rem;
+    border-radius: 5px;
+    border: none;
+    background-color: #fff;
+    color: #000;
+    font-size: 1rem;
+    font-weight: 700;
+    font-family: 'Courier New', Courier, monospace;
+    text-transform: lowercase;
+    cursor: pointer;
+    transition: 1s;
+}
+
+#return-a:hover {
+    text-decoration: underline;
+}
+
+#interaction-buttons {
+    margin: 0 auto;
+    width: 100%;
+    max-width: 600px;
+    padding: 1rem;
+    display: flex;
+    flex-direction: row;
+}
+
+#reply-btn {
+    margin-top: 1rem;
+    padding: 0.5rem 1rem;
+    border-radius: 5px;
+    border: none;
+    background-color: #fff;
+    color: #000;
+    font-size: 1rem;
+    font-weight: 700;
+    font-family: 'Courier New', Courier, monospace;
+    text-transform: lowercase;
+    cursor: pointer;
+    transition: 1s;
+}
+
+#report-btn {
+    margin-top: 1rem;
+    padding: 0.5rem 1rem;
+    border-radius: 5px;
+    border: none;
+    background-color: #fff;
+    color: #000;
+    font-size: 1rem;
+    font-weight: 700;
+    font-family: 'Courier New', Courier, monospace;
+    text-transform: lowercase;
+    cursor: pointer;
+    transition: 1s;
+}
+
+#message-reply-container {
+    margin: 0 auto;
+    width: 100%;
+    max-width: 600px;
+    padding: 0 20px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#message-reply-title {
+    font-size: 1.5rem;
+    font-weight: 700;
+    margin-bottom: 0.5rem;
+    font-family: 'Courier New', Courier, monospace;
+    text-align: left;
+}
+
+#message-reply-card {
+    margin: 1rem;
+    width: 100%;
+    max-width: 450px;
+    padding: 20px;
+    border-radius: 5px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0,0,0,0.2);
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    transition: box-shadow 0.3s ease-in-out
+}
+
+#message-reply-card:hover {
+    box-shadow: 0 0 10px rgba(0,0,0,0.4);
+}
+
+#message-reply-card-name {
+    font-size: 1.5rem;
+    font-weight: 700;
+    margin-bottom: 0.5rem;
+    font-family: 'Courier New', Courier, monospace;
+    text-transform: lowercase;
+}
+
+#message-reply-card-message {
+    font-size: 1.2rem;
+    margin-bottom: 1rem;
+    font-family: 'Courier New', Courier, monospace;
+    text-transform: lowercase;
+}
